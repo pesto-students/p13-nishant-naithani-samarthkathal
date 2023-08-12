@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Message Creator</title>
+</head>
+
+<body>
+  <style>
+    .bday-wish-input {
+      display: grid;
+      grid-template-columns: 150px 300px;
+      align-items: end;
+    }
+
+    label, input, textarea {
+      margin-bottom: 10px;
+    }
+  </style>
+  <main>
+    <h1>Happy Birthday Message Creator</h1>
+    <form method="post" enctype="multipart/form-data">
+      <div class="bday-wish-input">
+        <label for="message">Mesage?</label>
+        <input type="text" name="message" id="message" value="Happy Birthday!" required>
+      </div>
+      <div class="bday-wish-input">
+        <label for="email">Email Address?</label>
+        <input type="email" name="email" id="email" placeholder="name@domain.com" required>
+      </div>
+      <div class="bday-wish-input">
+        <label for="about">Date to send?</label>
+        <input type="date" name="date" id="date">
+      </div>
+      <div class="bday-wish-input">
+        <label for="color">Message color?</label>
+        <input type="color" name="color" id="color">
+      </div>
+      <div class="bday-wish-input">
+        <label for="blinks">Number of blinks?</label>
+        <input type="number" name="blinks" id="blinks" min="0" max="10" value="0">
+      </div>
+      <div class="bday-wish-input">
+        <label for="color">Music volume?</label>
+        <input type="range" name="color" id="color">
+      </div>
+      <div class="bday-wish-submit">
+        <input type="submit" value="Send Birthday Message">
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
