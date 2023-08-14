@@ -1,0 +1,47 @@
+nav > a {
+  margin-left: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+span.checked {
+  color: orange;
+}
+
+.restaurant > a {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1em;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.review-container {
+  margin-bottom: 40px;
+}
+
+.review-form-input {
+  display: grid;
+  grid-template-columns: 120px 300px;
+  align-items: end;
+}
+
+label,
+input,
+textarea,
+select {
+  margin-bottom: 10px;
+}
+.under-construction {
+  color: #2C1F33;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1em;
+  margin-bottom: 200px;
+}

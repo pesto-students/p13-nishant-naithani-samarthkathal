@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Reviews</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1 class="page-header">Restaurant Reviews</h1>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./add_review.html">Add a review!</a>
+      <a href="./about.html">About us</a>
+      <a href="./under_construction.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <section class="add-review">
+      <h2>Add Review</h2>
+      <form method="post" enctype="multipart/form-data">
+        <div class="review-form-input">
+          <label for="name">Name?</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="review-form-input">
+          <label for="restaurants">Restaurant?</label>
+          <select name="restaurants" id="restaurants">
+            <option value="Main Street Cafe">Main Street Cafe</option>
+            <option value="Greek House">Greek House</option>
+          </select>
+        </div>
+        <div class="review-form-input">
+          <label for="date_of_visit">Date of Visit?</label>
+          <input type="date" name="date_of_visit" id="date_of_visit">
+        </div>
+        <div class="review-form-input">
+          <label for="rating">Rating?</label>
+          <input type="number" name="rating" id="rating" min="1" max="5" value="5">
+        </div>
+        <div class="review-form-input">
+          <label for="details">Details?</label>
+          <textarea name="details" id="details" cols="30" rows="5"></textarea>
+        </div>
+        <div class="review-form-submit">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <span>&copy; 2023 Restaurant Reviews</span>
+  </footer>
+</body>
+
+</html>
