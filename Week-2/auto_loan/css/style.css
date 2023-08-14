@@ -1,0 +1,66 @@
+* {
+  font-family: "Roboto", "Helvetica", "sans-serif";
+}
+h3 {
+  color: #444444;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container {
+  margin: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.offer {
+  display: inline-block;
+  width: 400px;
+  margin: 4px;
+  text-align: center;
+  border: 1px;
+  border-color: #cccccc;
+}
+
+.offerTitle {
+  font-style: bold;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #00b3b3;
+  text-align: center;
+}
+
+.finalValue {
+  font-style: bold;
+  color: #2222ff;
+}
+
+table {
+  width: 100%;
+  background-color: #ffffff;
+  border-spacing: 0px;
+}
+
+th {
+  font-size: 12px;
+  font-style: bold;
+  color: #777777;
+  padding: 10px;
+  margin: 0px;
+}
+
+td {
+  font-weight: 300;
+  background-color: #fafafa;
+  color: #444444;
+  padding-inline: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+th, td {
+  text-align: left;
+  border-bottom: solid;
+  border: 1px;
+  border-color: #f1f1f1;
+}
