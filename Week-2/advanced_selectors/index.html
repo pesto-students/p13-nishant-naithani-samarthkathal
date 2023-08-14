@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Selectors</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Rate a Product</h1>
+    <form method="post" enctype="multipart/form-data">
+      <p class="mandatory-field">
+        indicates required field.
+      </p>
+      <div class="product-rating-form-input">
+        <label for="product" class="required">Product</label>
+        <input type="text" name="product" id="product">
+      </div>
+      <div class="product-rating-form-input">
+        <label for="purchase_date" class="required">Purchase Date</label>
+        <input type="date" name="purchase_date" id="purchase_date">
+      </div>
+      <div class="product-rating-form-input">
+        <label for="rating" class="required">Rating</label>
+        <input type="number" name="rating" id="rating" min="1" max 5>
+      </div>
+      <div class="product-rating-form-input">
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Submit Rating">
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
