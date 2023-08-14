@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Forms</title>
+</head>
+
+<body>
+  <form method="post" data-type="multi-part">
+    <div>
+      <label for="fullName">First name:</label>
+      <br>
+      <input type="text" id="fullName" name="fullName" required>
+    </div>
+    <br>
+    <div>
+      <label for="email">Last name:</label>
+      <br>
+      <input type="text" id="email" name="email" required>
+    </div>
+    <br>
+    <div>
+      <textarea name="about" id="about" cols="50" rows="3">
+      </textarea>
+    </div>
+    <br>
+    <div>
+      <input type="file" name="picture" id="picture">
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</body>
+
+</html>
