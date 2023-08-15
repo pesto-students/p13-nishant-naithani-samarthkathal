@@ -14,25 +14,26 @@
             width: 100px;
    
             /* Part of your solution goes here */
-            animation: moveFraction 2s forwards;
+            animation-name: moveFraction;
+            animation-duration: 2s;
             animation-delay: 1s;
+            animation-fill-mode: forwards
          }
    
          /* moveFraction goes here */
          @keyframes moveFraction {
           0% {
             color: yellow;
-            transform: translateX(-335px);
-            transform: translateY(60px);
+            transform: translate(-355px, 60px);
           }
+          
           50% {
-            translate: translateX(0px);
-            translate: translateY(60px);
+            transform: translate(0px, 60px);
           }
+
           100% {
             color: red;
-            translate: translateX(0px);
-            translate: translateX(0px);
+            transform: translate(0px, 0px);
           }
          }
    
