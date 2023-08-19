@@ -1,0 +1,25 @@
+* {
+  font-family: 'Arial';
+}
+
+.article-heading {
+  padding: 5px;
+  font-size: 24px;
+  color: white;
+  background-color: red;
+}
+
+.article-publishing-info {
+  color: gray;
+}
+
+a {
+  font-size: 12px;
+  color: blue;
+}
+
+p, ol {
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  color: gray;
+}
